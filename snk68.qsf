@@ -294,10 +294,6 @@ set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to BTN_*
 
 source files.qip
 
-set_global_assignment -name ENABLE_SIGNALTAP ON
 set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
-set_global_assignment -name TIMING_ANALYZER_MULTICORNER_ANALYSIS OFF
 set_global_assignment -name TOP_LEVEL_ENTITY sys_top
-set_global_assignment -name USE_SIGNALTAP_FILE output_files/sprites.stp
-set_global_assignment -name SIGNALTAP_FILE output_files/cache.stp
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
